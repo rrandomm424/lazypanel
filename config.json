@@ -1,0 +1,61 @@
+{
+  "hotkeys": [
+    {
+      "hotkey": "ctrl+↑",
+      "action": "key",
+      "value": "ctrl+alt+v",
+      "enabled": false
+    },
+    {
+      "hotkey": "ctrl+↓",
+      "action": "key",
+      "value": "ctrl+v",
+      "enabled": false
+    },
+    {
+      "hotkey": "ctrl+←",
+      "action": "key",
+      "value": "ctrl+a",
+      "enabled": false
+    },
+    {
+      "hotkey": "ctrl+.",
+      "action": "key",
+      "value": "ctrl+s",
+      "enabled": false
+    },
+    {
+      "hotkey": "alt+,",
+      "action": "key",
+      "value": "tab",
+      "enabled": false
+    },
+    {
+      "hotkey": "↑",
+      "action": "key",
+      "value": "ctrl+v",
+      "enabled": false
+    },
+    {
+      "hotkey": "←",
+      "action": "key",
+      "value": "ctrl+c",
+      "enabled": false
+    },
+    {
+      "hotkey": "→",
+      "action": "key",
+      "value": "ctrl+z",
+      "enabled": false
+    },
+    {
+      "hotkey": "↓",
+      "action": "key",
+      "value": "ctrl+a",
+      "enabled": false
+    }
+  ],
+  "settings": {
+    "toggle_hotkey": "ctrl+/"
+  }
+}
