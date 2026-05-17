@@ -581,6 +581,16 @@ class App:
         self.root.geometry("700x500")
         self.root.minsize(500, 340)
         self.root.configure(bg="#1a1a2e")
+        try:
+            icon = tk.PhotoImage(file=os.path.join(BASE_DIR, "icon.png"))
+            self.root.iconphoto(True, icon)
+        except Exception:
+            try:
+                ico_path = os.path.join(BASE_DIR, "icon.ico")
+                if os.path.exists(ico_path):
+                    self.root.iconbitmap(ico_path)
+            except Exception:
+                pass
 
         # Color scheme
         self.C = {

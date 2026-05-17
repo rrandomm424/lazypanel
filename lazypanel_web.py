@@ -774,10 +774,11 @@ class LazyApi:
 def main():
     import webview
     api = LazyApi()
+    icon_path = os.path.join(BASE_DIR, "icon.ico")
     window = webview.create_window(
         "LazyPanel", html=HTML, js_api=api,
         width=760, height=520, min_size=(520, 360),
-        resizable=True,
+        resizable=True, icon=icon_path if os.path.exists(icon_path) else None,
     )
     api.set_window(window)
     webview.start(debug=False)
